@@ -52,7 +52,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.name}
 ${renderLicenseBadge(data.license)}
-${renderLicenseLink(data.license)}
+
 ## Description
 ${data.description}
 ## Table of Contents
@@ -66,9 +66,10 @@ ${data.dependencies}
 ## Usage
 ${data.repoInfo}
 ## License
-This project is licensed under the ${data.license}.
+This project is licensed under the ${data.license}] (${renderLicenseLink(data.license)}) license.
 
 ${renderLicenseSection(data.license)}
+
 ## Contributing
 ${data.contributing}
 ## Tests
