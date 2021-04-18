@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
 
-// Do I need to add inquirer.prompt {} here?
-
+// Array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -57,14 +55,14 @@ const questions = [
     },
 ]
 
-// TODO: Create a function to write README file
-// having a function that emncompasses fs.writeFile allows you to call function into action as many times as needed without writing fs peocess over and over
+// Function to write README file
+
 function writeToFile(fileName, data) { 
     fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('Success!')
   );}
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
 
     inquirer.prompt(questions).then((data) => {

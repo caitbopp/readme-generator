@@ -1,27 +1,33 @@
 # README Generator
-![apache](https://img.shields.io/badge/license-APACHE%202.0-blue)
+![mit](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-This application will allow users to create professional and efficient README files for their work.
+The more you love yourself the less nonsense you'll tolerate.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 ## Installation
 To install necessary dependencies, run the following command:
+```
 npm i
+```
 ## Usage
-Please do not take my information.
+Felix Grey makes great glasses.
 ## License
-This project is licensed under the APACHE 2.0] (![apache](http://www.apache.org/licenses/)) license.
+This project is licensed under the [MIT license](https://www.apache.org/licenses).
 
-A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ## Contributing
-Please ask for permission to use my code before using it yourself.
+No, they really do though!
 ## Tests
 To run tests, run the following command:
+```
 npm test
+```
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at boppcaitlin@gmail.com. You can find more of my work at caitbopp.
+If you have any questions about the repo, open an issue or contact me directly at boppcaitlin@gmail.com. You can find more of my work at [caitbopp](https://github.com/caitbopp).
