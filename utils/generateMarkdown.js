@@ -20,11 +20,11 @@ function renderLicenseLink(license) {
   if (license === 'MIT') {
     return `[MIT license](https://www.apache.org/licenses)`
   } else if (license === 'APACHE 2.0') {
-    return `[apache](https://www.apache.org/licenses)`
+    return `[APACHE 2.0 license](https://www.apache.org/licenses)`
   } else if (license === 'GPL 3.0') {
-    return `[gpl](https://www.apache.org/licenses)`
+    return `[GPL 3.0 license](https://www.apache.org/licenses)`
   } else if (license === 'BSD 3') {
-    return `[bsd](https://www.apache.org/licenses)`
+    return `[BSD 3 license](https://www.apache.org/licenses)`
   } else if (license === 'None') {
     return ``
   };
