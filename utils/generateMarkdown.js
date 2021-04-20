@@ -68,7 +68,7 @@ ${data.dependencies}
 ## Usage
 ${data.repoInfo}
 ## License
-This project is licensed under the ${renderLicenseLink(data.license)}.
+This project is licensed under the: ${renderLicenseLink(data.license)}.
 
 ${renderLicenseSection(data.license)}
 
