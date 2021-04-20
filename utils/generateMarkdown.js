@@ -6,9 +6,9 @@ function renderLicenseBadge(license) {
   } else if (license === 'APACHE 2.0') {
     return `![apache](https://img.shields.io/badge/license-APACHE%202.0-blue)`
   } else if (license === 'GPL 3.0') {
-    return `[gpl](https://img.shields.io/badge/license-GPL%203.0-blue)`
+    return `![gpl](https://img.shields.io/badge/license-GPL%203.0-blue)`
   } else if (license === 'BSD 3') {
-    return `[bsd](https://img.shields.io/badge/license-BSD%203-green)`
+    return `![bsd](https://img.shields.io/badge/license-BSD%203-green)`
   } else if (license === 'None') {
     return ``
   };
@@ -18,13 +18,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return `[MIT license](https://www.apache.org/licenses)`
+    return `[MIT license](https://opensource.org/licenses/MIT)`
   } else if (license === 'APACHE 2.0') {
     return `[APACHE 2.0 license](https://www.apache.org/licenses)`
   } else if (license === 'GPL 3.0') {
-    return `[GPL 3.0 license](https://www.apache.org/licenses)`
+    return `[GPL 3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html)`
   } else if (license === 'BSD 3') {
-    return `[BSD 3 license](https://www.apache.org/licenses)`
+    return `[BSD 3 license](https://opensource.org/licenses/BSD-3-Clause)`
   } else if (license === 'None') {
     return ``
   };
@@ -38,7 +38,7 @@ function renderLicenseSection(license) {
   } else if (license === 'APACHE 2.0') {
     return `A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.`
   } else if (license === 'GPL 3.0') {
-    return ``
+    return `Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.`
   } else if (license === 'BSD 3') {
     return `A permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the project or its contributors to promote derived products without written consent.`
   } else if (license === 'None') {
