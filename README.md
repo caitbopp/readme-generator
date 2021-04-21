@@ -15,7 +15,7 @@ To install necessary dependencies, run the following command:
 ```
 npm i
 ```
-For video on how to create a README file, please visit:
+For video on how to create a README file, please visit: [https://youtu.be/6nsGVJAthLM](https://youtu.be/6nsGVJAthLM).
 ## Usage
 FS and Inquirer are required to use the README Generator. To run the README Generator, users will need to open the integrate terminal, and answer a series of questions. After answering the questions, a professional README file will be created.
 ## License
